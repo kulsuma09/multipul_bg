@@ -9,18 +9,50 @@
         padding: 0;
         margin: 0;
     }
+    body{
+        font-family: "Poppins", sans-serif;
+        line-height: 1.4;
+    }
     .container{
         background-image:url("./88800709_DJV\ JUL\ 2359-02\(1\).png"), url("./233429-P2LZEE-444.png"), url("./91519.jpg");
         background-position:left bottom, right bottom, center center;
         background-repeat:no-repeat, no-repeat,repeat;
-        height: 100vh;
+        height: 50vh;
         text-align: center;
         background-size: auto,auto,cover;
+    }
+    .explanation{
+      padding: 30px;
+    }
+    h5{
+        font-size: 18px;
+        color: #000000;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 16px;
+        color: #000000;
+        font-weight: 400;
+        margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
   <div class="container"></div>
+  <div class="explanation">
+    <h5>Explanation:</h5>
+    <p><strong>background-image:</strong> You can specify multiple images by separating the URLs with commas. In this case,left bottom corner flower image is the first background image, and right bottom multiple flowers image is the second background image & navy blue image is the third background image.</p>
+    <p><strong>background-position:</strong> Defines the position of each background image. You can set different positions for each image (e.g., left top for the first image, right bottom for the second).</p>
+    <p><strong> background-repeat:</strong> This controls whether the background images should repeat. In this example, the first image won’t repeat (no-repeat), while the second image will repeat (repeat).</p>
+    <p><strong>background-size: </strong>This control the size of background images. It can be used to scale images in the background of an element to fit or cover a certain area, or to define custom dimensions for the background images. In this example for first & second image using auto means the background image will keep its original size (without any scaling) & for third image using cover means the background image will completely covers the element's background area. It ensures that the image fills the entire area.</p>
+
+
+
+
+
+
+  </div>
 
 </body>
 </html>
